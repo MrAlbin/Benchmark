@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35521.163 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Benchmark.Xamarin", "Benchmark.Xamarin\Benchmark.Xamarin.csproj", "{1DB6AEC7-38C6-4123-99E7-8F9477BB6527}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Benchmark.Net", "Benchmark.Net\Benchmark.Net.csproj", "{E22C3100-25E5-417C-8264-BB747F137BE5}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Benchmark.Shared", "Benchmark.Shared\Benchmark.Shared.shproj", "{9BE5EB6D-EEBA-49BF-A145-27990EBEF0F8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1DB6AEC7-38C6-4123-99E7-8F9477BB6527}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DB6AEC7-38C6-4123-99E7-8F9477BB6527}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DB6AEC7-38C6-4123-99E7-8F9477BB6527}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{1DB6AEC7-38C6-4123-99E7-8F9477BB6527}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DB6AEC7-38C6-4123-99E7-8F9477BB6527}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DB6AEC7-38C6-4123-99E7-8F9477BB6527}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{E22C3100-25E5-417C-8264-BB747F137BE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E22C3100-25E5-417C-8264-BB747F137BE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E22C3100-25E5-417C-8264-BB747F137BE5}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{E22C3100-25E5-417C-8264-BB747F137BE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E22C3100-25E5-417C-8264-BB747F137BE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E22C3100-25E5-417C-8264-BB747F137BE5}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Benchmark.Shared\Benchmark.Shared.projitems*{1db6aec7-38c6-4123-99e7-8f9477bb6527}*SharedItemsImports = 4
+		Benchmark.Shared\Benchmark.Shared.projitems*{9be5eb6d-eeba-49bf-a145-27990ebef0f8}*SharedItemsImports = 13
+		Benchmark.Shared\Benchmark.Shared.projitems*{e22c3100-25e5-417c-8264-bb747f137be5}*SharedItemsImports = 5
+	EndGlobalSection
+EndGlobal
